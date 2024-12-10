@@ -2,3 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-port-bg text-port-white
+}
+
+@layer base {
+  html {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+  }
+  h1 {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", Times, serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1rem 0 1rem 0;
+  }
+  h3 {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+  h4 {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25rem;
+    font-style: italic;
+  }
+}
+
+.container {
+  @apply p-2 max-w-[1200px];
+}
+
+.container-hug {
+  @apply max-w-[1200px] mx-auto;
+}
