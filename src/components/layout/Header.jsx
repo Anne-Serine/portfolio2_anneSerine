@@ -38,7 +38,7 @@ function Header() {
           <Button
             type="tertiary"
             onClick={() => setIsOpen(!isOpen)}
-            icon={<Menu color="white" size={19} />}
+            icon={<Menu color="white" size={22} />}
           />
         </div>
       </div>

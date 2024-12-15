@@ -78,7 +78,7 @@ function Portfolio() {
         <img
           src="/assets/ASblackWhite1.svg"
           alt="portrait of the developer"
-          className="max-w-[36rem] p-0 m-0 w-full -mr-4 sm:-mr-10"
+          className="max-w-[50%] p-0 m-0 w-full -mr-4 sm:-mr-10"
         />
       </section>
 
