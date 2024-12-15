@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="relative py-3 flex md:flex-col gap-4 container justify-between md:justify-center items-center">
       <Link to="/" className=" p-5">
-        <img src="/public/assets/Logos/logo.svg" alt="logo" />
+        <img src="/assets/Logos/logo.svg" alt="logo" />
       </Link>
       <div className="flex flex-wrap gap-5 w-full sm:max-w-max justify-end">
         <Nav isOpen={isOpen} closeMenu={closeMenu} />

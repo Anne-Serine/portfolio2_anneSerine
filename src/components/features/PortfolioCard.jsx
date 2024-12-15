@@ -45,7 +45,7 @@ function PortfolioCard({
           type="githubBtn"
           icon={
             <img
-              src="/public/assets/Logos/github-original-dark.svg"
+              src="/assets/Logos/github-original-dark.svg"
               className="size-7"
             />
           }
