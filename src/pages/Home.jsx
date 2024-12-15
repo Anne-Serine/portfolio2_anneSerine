@@ -7,45 +7,45 @@ import { useEffect } from "react";
 function Portfolio() {
   const projects = [
     {
-      image: "/public/assets/holidaze.png",
-      qr: "/public/assets/qr-holidaze.svg",
+      image: "/assets/holidaze.png",
+      qr: "/assets/qr-holidaze.svg",
       title: "Holidaze | venues",
       description:
         "A venue booking platform. Customers can browse venues, search, view detailed information with availability calendars, and manage their bookings. Venue managers can create, update, and delete venues, as well as view and manage bookings for their listings.",
       icons: [
-        "/public/assets/Logos/html5-original-dark.svg",
-        "/public/assets/Logos/javascript-original-dark.svg",
-        "/public/assets/Logos/react-original-dark.svg",
-        "/public/assets/Logos/tailwindcss-plain-dark.svg",
+        "/assets/Logos/html5-original-dark.svg",
+        "/assets/Logos/javascript-original-dark.svg",
+        "/assets/Logos/react-original-dark.svg",
+        "/assets/Logos/tailwindcss-plain-dark.svg",
       ],
       githubUrl: "https://github.com/Anne-Serine/holidaze_project-exam-2",
       livesiteUrl: "https://holidaze-a-s.netlify.app/",
     },
     {
-      image: "/public/assets/nuuYuu.png",
-      qr: "/public/assets/qr-nuuyuu.svg",
+      image: "/assets/nuuYuu.png",
+      qr: "/assets/qr-nuuyuu.svg",
       title: "nuuYuu",
       description:
         "This eCommerce platform allows users to browse, search, and purchase products in a modern online store. Features include product listings, detailed product pages, cart management, and a checkout system with success confirmation.",
       icons: [
-        "/public/assets/Logos/html5-original-dark.svg",
-        "/public/assets/Logos/javascript-original-dark.svg",
-        "/public/assets/Logos/react-original-dark.svg",
-        "/public/assets/Logos/tailwindcss-plain-dark.svg",
+        "/assets/Logos/html5-original-dark.svg",
+        "/assets/Logos/javascript-original-dark.svg",
+        "/assets/Logos/react-original-dark.svg",
+        "/assets/Logos/tailwindcss-plain-dark.svg",
       ],
       githubUrl: "https://github.com/Anne-Serine/JavaScript_Frameworks",
       livesiteUrl: "https://nuuyuu.netlify.app/",
     },
     {
-      image: "/public/assets/crowsNest.png",
-      qr: "/public/assets/qr-crowsNest.svg",
+      image: "/assets/crowsNest.png",
+      qr: "/assets/qr-crowsNest.svg",
       title: "Crow's Nest",
       description:
         "An online auction platform where users can buy and sell items through bidding. Key features include user registration, login, and the ability to list, update, and delete items. Users can browse all listings, search by title or description, and view bid activity.",
       icons: [
-        "/public/assets/Logos/html5-original-dark.svg",
-        "/public/assets/Logos/javascript-original-dark.svg",
-        "/public/assets/Logos/tailwindcss-plain-dark.svg",
+        "/assets/Logos/html5-original-dark.svg",
+        "/assets/Logos/javascript-original-dark.svg",
+        "/assets/Logos/tailwindcss-plain-dark.svg",
       ],
       githubUrl: "https://github.com/Anne-Serine/Semester-Project-2_crowsNest",
       livesiteUrl: "https://euphonious-mochi-17b774.netlify.app/",
@@ -76,7 +76,7 @@ function Portfolio() {
           </h1>
         </div>
         <img
-          src="/public/assets/ASblackWhite1.svg"
+          src="/assets/ASblackWhite1.svg"
           alt="portrait of the developer"
           className="max-w-[36rem] p-0 m-0 w-full -mr-4 sm:-mr-10"
         />
@@ -115,8 +115,8 @@ function Portfolio() {
             <div className="flex flex-wrap w-full max-w-md lg:max-w-sm">
               <div className="pb-20 flex flex-col gap-3">
                 <div className="flex gap-5">
-                  <a href="https://www.linkedin.com/in/anne-serine-johannessen-587b4024a/"><img src="/public/assets/Logos/linkedin-plain-yellow.svg" className="size-9" alt="linkedin logo" /></a>
-                  <a href="https://github.com/Anne-Serine"><img src="/public/assets/Logos/github-original-yellow.svg" className="size-9" alt="github logo" /></a>
+                  <a href="https://www.linkedin.com/in/anne-serine-johannessen-587b4024a/"><img src="/assets/Logos/linkedin-plain-yellow.svg" className="size-9" alt="linkedin logo" /></a>
+                  <a href="https://github.com/Anne-Serine"><img src="/assets/Logos/github-original-yellow.svg" className="size-9" alt="github logo" /></a>
                 </div>
                 <span className="flex gap-5 items-center font-bold"><MapPin size={20} /> Haugesund, Norway </span>
                 <span className="flex gap-5 items-center font-bold"><Mail size={20} /> anneserinejoha@gmail.com </span>
@@ -133,7 +133,7 @@ function Portfolio() {
           <div className="flex flex-wrap justify-center gap-5">
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/html5-original.svg"
+                src="/assets/Logos/html5-original.svg"
                 alt="html logo"
                 className="pb-2 size-14"
               />
@@ -141,7 +141,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/css3-original.svg"
+                src="/assets/Logos/css3-original.svg"
                 alt="css logo"
                 className="pb-2 size-14"
               />
@@ -149,7 +149,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/javascript-original.svg"
+                src="/assets/Logos/javascript-original.svg"
                 alt="javascript logo"
                 className="pb-2 size-14"
               />
@@ -157,7 +157,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/vscode-original.svg"
+                src="/assets/Logos/vscode-original.svg"
                 alt="vscode logo"
                 className="pb-2 size-14"
               />
@@ -165,7 +165,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/github-original.svg"
+                src="/assets/Logos/github-original.svg"
                 alt="github logo"
                 className="p-1 size-14 bg-port-light-gray rounded-full items-center"
               />
@@ -173,7 +173,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/figma-original.svg"
+                src="/assets/Logos/figma-original.svg"
                 alt="figma logo"
                 className="pb-2 size-14"
               />
@@ -181,7 +181,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/react-original.svg"
+                src="/assets/Logos/react-original.svg"
                 alt="react logo"
                 className="pb-2 size-14"
               />
@@ -189,7 +189,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/bootstrap-plain.svg"
+                src="/assets/Logos/bootstrap-plain.svg"
                 alt="bootstrap logo"
                 className="pb-2 size-14"
               />
@@ -197,7 +197,7 @@ function Portfolio() {
             </div>
             <div className="flex flex-col items-center w-20">
               <img
-                src="/public/assets/Logos/tailwindcss-plain.svg"
+                src="/assets/Logos/tailwindcss-plain.svg"
                 alt="tailwind logo"
                 className="pb-2 size-14"
               />
