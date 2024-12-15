@@ -1,7 +1,8 @@
 import { Mail, MapPin } from "lucide-react";
 import PortfolioCard from "../components/features/PortfolioCard";
 import Timeline from "../components/features/Timeline";
-import Button from "../components/common/Buttons";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function Portfolio() {
   const projects = [
@@ -50,6 +51,17 @@ function Portfolio() {
       livesiteUrl: "https://euphonious-mochi-17b774.netlify.app/",
     },
   ];
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location.hash]);
 
   return (
     <>
