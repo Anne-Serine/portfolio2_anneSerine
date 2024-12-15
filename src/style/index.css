@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  @apply min-h-screen
+}
+
 body {
   @apply bg-port-bg text-port-light-gray;
 }
