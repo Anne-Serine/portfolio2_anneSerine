@@ -44,6 +44,10 @@ body {
   @apply max-w-[1200px] mx-auto;
 }
 
+.footer {
+  @apply mt-auto;
+}
+
 /* Timeline */
 
 .timeline {
